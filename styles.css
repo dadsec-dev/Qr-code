@@ -1,0 +1,60 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./fonts/static/Outfit-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Outfit2";
+    src: url("./fonts/static/Outfit-Light.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 20%;
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+
+.container {
+    /* padding: 70px 0; */
+    border: 1px solid hsl(30, 38%, 92%);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    height: auto;
+    /* width: 50%; */
+    max-width: 100rem;
+    /* margin: 7rem 15rem 9rem 15rem; */
+    margin: 20% 20% 20% 20%;
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 1px 1px 20px grey;
+}
+
+.code {
+    inline-size: 100%;
+    /* aspect-ratio: 16 / 9; */
+    /* margin-bottom: 30px; */
+    margin-top: 0px;
+    object-fit: cover;
+    /* width: 100%; */
+    height: 300;
+    width: 300;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Outfit';
+}
+
+.texts {
+    padding: 20px 20px;
+}
+
+p {
+    font-family: 'Outfit2';
+    color: grey;
+}

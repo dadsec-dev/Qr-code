@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 12px;
+        background-color: hsl(212, 45%, 89%);
+        
+    }
+
+
+    .container {
+        /* padding: 70px 0; */
+        border: 1px solid hsl(30, 38%, 92%);
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+        height: auto;
+        /* width: 50%; */
+        max-width: 100rem;
+        /* margin: 7rem 15rem 9rem 15rem; */
+        margin: 20% 20% 20% 20%;
+        /* padding: 8px 8px; */
+        background-color: white;
+        box-shadow: 1px 1px 20px grey;
+    }
+}
